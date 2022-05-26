@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useState, useContext } from "react";
 import "./topbar.css";
 import { AuthContext } from "./../../App";
@@ -8,6 +9,7 @@ import MenuBurger from "../menuBurger/MenuBurger";
 
 export default function Topbar() {
   const url = "http://localhost:8800/images/";
+  // eslint-disable-next-line
   const [error, setError] = useState(null);
   // eslint-disable-next-line
   const [isLoaded, setIsLoaded] = useState(false);
